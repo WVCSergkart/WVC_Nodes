@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PawnKindDef Name="WVC_BasePawn_Nodes" Abstract="True">
+		<!-- <apparelMoney>350~600</apparelMoney> -->
+		<combatPower>30</combatPower>
+		<isFighter>false</isFighter>
+		<apparelMoney>0</apparelMoney>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
+		<initialWillRange>9~19</initialWillRange>
+		<initialResistanceRange>13~24</initialResistanceRange>
+		<chemicalAddictionChance>0</chemicalAddictionChance>
+		<forceNormalGearQuality>false</forceNormalGearQuality>
+		<!-- <allowOldAgeInjuries>false</allowOldAgeInjuries> -->
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<ignoreFactionApparelStuffRequirements>true</ignoreFactionApparelStuffRequirements>
+		<techHediffsChance>0</techHediffsChance>
+		<techHediffsMoney>0</techHediffsMoney>
+		<defaultFactionType>PlayerFaction_NodesFormers_WVC</defaultFactionType>
+		<chronologicalAgeRange>100~3000</chronologicalAgeRange>
+		<!-- <apparelTags> -->
+		  <!-- <li>IndustrialBasic</li> -->
+		<!-- </apparelTags> -->
+		<backstoryFiltersOverride>
+		  <li>
+			<categories>
+				<li>WVC_NodesBackstory_Former</li>
+			</categories>
+		  </li>
+		</backstoryFiltersOverride>
+	</PawnKindDef>
+
+	<!-- ================================================================== -->
+
+	<PawnKindDef ParentName="WVC_BasePawn_Nodes">
+		<defName>WVC_AlienRace_Former</defName>
+		<label>&lt;color=#85caff&gt;Former&lt;/color&gt;</label>
+		<race>WVC_AlienRace_Former</race>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="WVC_BasePawn_Nodes">
+		<defName>WVC_AlienRace_RedFormer</defName>
+		<label>&lt;color=#FF8585&gt;Former&lt;/color&gt;</label>
+		<race>WVC_AlienRace_RedFormer</race>
+	</PawnKindDef>
+
+	<!-- ================================================================== -->
+
+</Defs>

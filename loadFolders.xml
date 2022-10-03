@@ -1,0 +1,8 @@
+<loadFolders>
+	<v1.3>
+		<li>/</li>
+		<li IfModActive="erdelf.humanoidalienraces">NodeRace</li>
+	</v1.3>
+</loadFolders>
+
+

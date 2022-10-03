@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>WVC - Nodes</name>
+	<author>Sergkart</author>
+	<url>https://steamcommunity.com/profiles/76561198019114858/myworkshopfiles/?appid=294100</url>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<packageId>wvc.sergkart.nodes</packageId>
+	<description>The mod is dedicated to expanding the content presented in "WVC - Core" but since it was done in a very different color style, it is separated. The changes also affect the balance introduced in Core by strengthening some of the archotech structures and making them all more expensive.
+
+A number of technologies have been added that are required to study the archotech, a huge number of implants with their own advantages between each other and an additional set of archo-body parts. In addition to making access to the archo tech branch more difficult, new technologies open up access to unique structures. Which are an enhanced or extended version of what was already presented in Core.
+
+There are 5 color styles in total. Each style has basic buildings that can be found on everyone and a few that are unique to each.
+
+Like other mods in the series, this mod will be updated with content.</description>
+	<modDependencies>
+		<li>
+			<packageId>wvc.sergkart.core</packageId>
+			<displayName>WVC - Core</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2815269136</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>wvc.sergkart.core</li>
+	</loadAfter>
+	<loadBefore>
+		<li>honkai.girls.sergkart</li>
+	</loadBefore>
+	<incompatibleWith>
+	</incompatibleWith>
+</ModMetaData>

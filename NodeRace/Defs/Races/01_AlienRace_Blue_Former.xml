@@ -212,6 +212,71 @@
 				  <label>Same creator</label>
 				  <femaleLabel>Same creator</femaleLabel>
 			   </li>
+			   <li>
+				  <relation>HalfSibling</relation>
+				  <label>Same creator</label>
+				  <femaleLabel>Same creator</femaleLabel>
+			   </li>
+			   <li>
+				  <relation>Cousin</relation>
+				  <label>Same creator</label>
+				  <femaleLabel>Same creator</femaleLabel>
+			   </li>
+			   <li>
+				  <relation>Grandparent</relation>
+				  <label>Grand creator</label>
+				  <femaleLabel>Grand creator</femaleLabel>
+			   </li>
+			   <li>
+				  <relation>CousinOnceRemoved</relation>
+				  <label>Same creator</label>
+				  <femaleLabel>Same creator</femaleLabel>
+			   </li>
+			   <li>
+				  <relation>SecondCousin</relation>
+				  <label>Same creator</label>
+				  <femaleLabel>Same creator</femaleLabel>
+			   </li>
+			   <li>
+				  <relation>Grandchild</relation>
+				  <label>Creation</label>
+				  <femaleLabel>Creation</femaleLabel>
+			   </li>
+			   <li>
+				  <relation>GreatGrandparent</relation>
+				  <label>Creator</label>
+				  <femaleLabel>Creator</femaleLabel>
+			   </li>
+			   <li>
+				  <relation>UncleOrAunt</relation>
+				  <label>Creator</label>
+				  <femaleLabel>Creator</femaleLabel>
+			   </li>
+			   <li>
+				  <relation>GranduncleOrGrandaunt</relation>
+				  <label>Creator</label>
+				  <femaleLabel>Creator</femaleLabel>
+			   </li>
+			   <li>
+				  <relation>GreatGrandchild</relation>
+				  <label>Creation</label>
+				  <femaleLabel>Creation</femaleLabel>
+			   </li>
+			   <li>
+				  <relation>GrandnephewOrGrandniece</relation>
+				  <label>Creation</label>
+				  <femaleLabel>Creation</femaleLabel>
+			   </li>
+			   <li>
+				  <relation>NephewOrNiece</relation>
+				  <label>Creation</label>
+				  <femaleLabel>Creation</femaleLabel>
+			   </li>
+			   <li>
+				  <relation>Kin</relation>
+				  <label>Same brunch</label>
+				  <femaleLabel>Same brunch</femaleLabel>
+			   </li>
 			</renamer>
 		</relationSettings>
 		
@@ -307,8 +372,8 @@
 	  <ArmorRating_Heat>2.0</ArmorRating_Heat>
 	  <!-- custom -->
 	  <PawnTrapSpringChance>0.0</PawnTrapSpringChance>
-	  <ButcheryFleshEfficiency>1.0</ButcheryFleshEfficiency>
-	  <ButcheryMechanoidEfficiency>1.0</ButcheryMechanoidEfficiency>
+	  <ButcheryFleshEfficiency>1.2</ButcheryFleshEfficiency>
+	  <ButcheryMechanoidEfficiency>1.2</ButcheryMechanoidEfficiency>
 	  <WorkSpeedGlobal>1.5</WorkSpeedGlobal>
 	  <!-- <FoodPoisonChance>0.8</FoodPoisonChance> -->
 	  <PawnBeauty>-1</PawnBeauty>
@@ -331,9 +396,9 @@
 	  <MentalBreakThreshold>0.0</MentalBreakThreshold>
 	  <ConversionPower MayRequire="ludeon.rimworld.ideology">0.5</ConversionPower>
 	  <CertaintyLossFactor MayRequire="ludeon.rimworld.ideology">1.5</CertaintyLossFactor>
-	  <RoyalFavorValue MayRequire="ludeon.rimworld.royalty">4</RoyalFavorValue>
+	  <RoyalFavorValue MayRequire="ludeon.rimworld.royalty">5</RoyalFavorValue>
 	  <VPE_PsyfocusCostFactor MayRequire="vanillaexpanded.vpsycastse">0.75</VPE_PsyfocusCostFactor>
-	  <VEF_VerbRangeFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_VerbRangeFactor>
+	  <VEF_VerbRangeFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.0</VEF_VerbRangeFactor>
 	  <!-- CE test -->
 	  <!-- <MeleeParryChance MayRequire="ceteam.combatextended">20.0</MeleeParryChance> -->
 	  <!-- <UnarmedDamage MayRequire="ceteam.combatextended">5.0</UnarmedDamage> -->

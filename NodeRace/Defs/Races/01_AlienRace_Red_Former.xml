@@ -29,6 +29,7 @@
 	  <MoveSpeed>7.9</MoveSpeed>
 	  <MarketValue>2350</MarketValue>
 	  <Mass>44</Mass>
+	  <VEF_VerbRangeFactor MayRequire="oskarpotocki.vanillafactionsexpanded.core">1.5</VEF_VerbRangeFactor>
 	</statBases>
 
 	<!-- ==================================================================== -->
